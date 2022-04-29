@@ -1,0 +1,38 @@
+.friend-list{
+  background-color: #f7cac9;
+  padding: 10px;
+  margin: 0;
+}
+
+
+.friend-list-item {
+  display: flex;
+  margin: 0;
+  align-items: center;
+  padding: 20px 10px;
+  cursor: pointer;
+  color: black;
+  background-color: #c5b9cd;
+
+}
+
+.friend-display{
+  padding: 0 20px;
+  align-items: center;
+  text-decoration: none;
+}
+
+img{
+  width: 100px;
+  height: 100px;
+}
+
+@media screen and (max-width: 480px) {
+  .friend-list{
+    display: block;
+  }
+}
+
+
+
+

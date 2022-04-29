@@ -1,0 +1,45 @@
+.chat {
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+
+  flex: 4;
+}
+
+.inputbox {
+  background-color: #fce9e9;
+  display: flex;
+  padding: 20px 100px;
+  margin-bottom: 10px;
+  justify-content: center;
+}
+
+input#inputmsg {
+  margin-bottom: 70px;
+}
+
+.inputbox .label1 {
+  font-size: 1.5em;
+  text-align: right;
+}
+
+.inputbox .text {
+  font-size: 1em;
+  padding-left: 8px;
+  padding-right: 8px;
+  flex: 1;
+}
+
+.inputbox .button {
+  font-size: 1em;
+  min-width: 40px;
+}
+
+@media screen and (max-width: 480px) {
+  input#inputmsg {
+    margin-bottom: 70px;
+}
+}
